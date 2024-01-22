@@ -1,29 +1,43 @@
-Introduction
-The Maida-Vale VR Studio project is a comprehensive VR application, featuring a range of functionalities to enhance virtual reality experiences. Below is an overview of the key script components and their roles within the project.
+# Introduction
+The Maida-Vale VR Studio project is a comprehensive VR application, featuring a range of functionalities to enhance music band virtual reality experiences. Below is an overview of the key script components and their roles within the project.
 
-Script Summaries
-AvatarManager.cs: Manages avatar representations in the VR environment. This script could be responsible for handling avatar creation, customization, or control within the virtual space.
+# Script Summaries
 
-CustomTwoGrabFreeTransformer.cs: Implements a custom transformation mechanic, possibly for objects or entities within the VR space. This script likely allows for advanced interaction techniques such as scaling, rotating, or moving objects with two-hand controls.
+## AvatarManager.cs
+**Manages avatar representations in the VR environment.** This script handles avatar creation, customization, and control within the virtual space.
 
-FPSLatencyMeasurement.cs: Monitors and records the frames per second (FPS) and latency in the VR environment. This is crucial for ensuring a smooth and responsive VR experience.
+## CustomTwoGrabFreeTransformer.cs
+**Implements a custom transformation mechanic,** for objects or entities within the VR space. This script allows for advanced interaction techniques such as scaling, rotating, or moving objects with two-hand controls.
 
-FaceAnalyser.cs: Analyzes facial expressions or features. This script might be used for avatar facial expression synchronization or for emotion detection within VR.
+## FPSLatencyMeasurement.cs
+**Monitors and records the frames per second (FPS) and latency** in the VR environment.
 
-InstrumentManager.cs: Manages musical instruments or similar interactive objects in the VR setting. It could handle the logic for playing, controlling, and interacting with virtual instruments.
+## FaceAnalyser.cs
+**Analyzes facial expressions and features.** This script is used for avatar facial expression synchronization and emotion detection within VR.
 
-LocalDataBuffer.cs: Handles data buffering, potentially for network operations or data streaming in VR. This script ensures efficient data handling and transfer within the application.
+## InstrumentManager.cs
+**Manages musical instruments objects** in the VR setting. It handles the logic for playing, controlling, and interacting with virtual instruments.
 
-MasterControl.cs: Acts as the central control script for the VR application, likely coordinating various aspects of the VR experience, such as scene management, user interactions, and system settings.
+## LocalDataBuffer.cs
+**Handles data buffering,** for network operations or data streaming in VR. This script ensures efficient data handling and transfer within the application.
 
-MenuManager.cs: Manages in-app menus and user interfaces. This script is key for navigation, settings adjustments, and user interaction within the VR environment.
+## MasterControl.cs
+**Acts as the central control script for the VR application,** coordinating various aspects of the VR experience, such as scene management, user interactions, and system settings.
 
-NetworkManager.cs: Handles network connectivity and communication. It's vital for multiplayer or online aspects of the VR experience, ensuring smooth data exchange and interaction between different users.
+## MenuManager.cs
+**Manages in-app menus and user interfaces.** This script is key for navigation, settings adjustments, and user interaction within the VR environment.
 
-PassthroughManager.cs: Likely manages the integration of real-world visuals into the VR space, a feature known as 'passthrough' in VR systems. This can enhance user orientation and safety.
+## NetworkManager.cs
+**Handles network connectivity and communication.** It is vital for multiplayer or online aspects of the VR experience, ensuring smooth data exchange and interaction between different users.
 
-ResearchConditionsManager.cs: Manages experimental or research conditions within the VR application. This script could be used for studies, user testing, or controlled environment settings.
+## PassthroughManager.cs
+**Manages the integration of real-world visuals into the VR space,** a feature known as 'passthrough' in VR systems. This enhances user orientation and safety.
 
-TestDummyData.cs: Provides dummy data for testing purposes. It's essential for the development phase, allowing developers to test functionalities without the need for live data.
+## ResearchConditionsManager.cs
+**Manages experimental and research conditions** within the VR application. This script is used for studies, user testing, and controlled environment settings.
 
-TimeStamp.cs: Handles time-stamping functionalities, which could be used for event logging, performance measurement, or time-based actions within the VR application.
+## TestDummyData.cs
+**Provides dummy data for testing purposes.** It is essential for the development phase, allowing developers to test functionalities without the need for live data.
+
+## TimeStamp.cs
+**Handles time-stamping functionalities,** which are used for event logging, performance measurement, or time-based actions within the VR application.
