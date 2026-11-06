@@ -1,4 +1,8 @@
+# Maida Vale VR Studio
+
 > Showcase repository: the code of this project is kept private; this README describes it. Part of doctoral research at the University of York (AudioLab × BBC R&D).
+
+**Anthony Hunt** · [Project page on ingevision.cloud](https://ingevision.cloud/?lang=en&p=maida-vale) · [LinkedIn](https://www.linkedin.com/in/anthony-hunt-3948a9196) · [GitHub profile](https://github.com/anthohunt)
 
 # Introduction
 This project represents the client-side of the VR music application. It focuses on user interaction, network communication, and the personal aspects of the music experience in VR. The client component connects to the server (Maida-Vale VR Studio project) and handles functionalities like real-time audio recording, performance playback, and OSC communication for immersive musical interaction. Below is an overview of the key script components and their roles in the client-side VR application.
