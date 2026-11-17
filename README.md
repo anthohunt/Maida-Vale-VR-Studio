@@ -18,7 +18,13 @@
 
 ## Architecture
 
-![Maida Vale VR Studio architecture: each Quest Pro streams body, face and gaze over OSC to a Unity server on the control PC, which forwards the other musician's avatar; Reaper renders Studio 4's acoustics, rotated with the head, binaurally to each musician's headphones](docs/architecture.en.svg)
+![Maida Vale VR Studio architecture: each Quest Pro streams body, face and gaze over OSC to a Unity server on the control PC, which forwards the other musician's avatar; Reaper renders Studio 4's acoustics, rotated with the head, binaurally to each musician's headphones](docs/architecture.svg)
+
+<details><summary>French version</summary>
+
+![Architecture de Maida Vale VR Studio : chaque Quest Pro envoie corps, visage et regard en OSC à un serveur Unity sur le PC de régie, qui renvoie l'avatar de l'autre musicien ; Reaper rend l'acoustique du Studio 4, tournée selon la tête, en binaural dans le casque audio de chaque musicien](docs/architecture.fr.svg)
+
+</details>
 
 ## Status
 

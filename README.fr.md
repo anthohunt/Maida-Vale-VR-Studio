@@ -20,6 +20,12 @@
 
 ![Architecture de Maida Vale VR Studio : chaque Quest Pro envoie corps, visage et regard en OSC à un serveur Unity sur le PC de régie, qui renvoie l'avatar de l'autre musicien ; Reaper rend l'acoustique du Studio 4, tournée selon la tête, en binaural dans le casque audio de chaque musicien](docs/architecture.svg)
 
+<details><summary>Diagramme en français</summary>
+
+![Architecture de Maida Vale VR Studio : chaque Quest Pro envoie corps, visage et regard en OSC à un serveur Unity sur le PC de régie, qui renvoie l'avatar de l'autre musicien ; Reaper rend l'acoustique du Studio 4, tournée selon la tête, en binaural dans le casque audio de chaque musicien](docs/architecture.fr.svg)
+
+</details>
+
 ## État
 
 - **Recherche.** Utilisé pour une session d'enregistrement d'un groupe en direct ([JAES, 2023](https://eprints.whiterose.ac.uk/206403/)) et une étude de quatre styles d'avatar avec un groupe de rock de quatre musiciens ([AES, 2023](https://www.aes.org/e-lib/browse.cfm?elib=22183)).
