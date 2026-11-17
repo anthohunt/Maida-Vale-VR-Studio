@@ -12,7 +12,7 @@
 
 - **Avatars.** Chaque musicien apparaît en avatar Meta, animé par la tête, les mains et le corps. Sur Quest Pro, sourcils, coins des lèvres et regard suivent le visage du joueur.
 - **Portail passthrough.** Une fenêtre sur la pièce réelle, pour voir son propre instrument. Pincer d'une main pour la déplacer, des deux mains pour l'agrandir.
-- **Instruments.** Piano, guitare ou voix ; la guitare se place sur l'avatar du musicien distant.
+- **Instruments.** Chaque musicien choisit piano, guitare ou voix ; l'instrument correspondant apparaît dans le studio partagé.
 - **Son du studio.** Chaque musicien entend le groupe dans le Studio 4, rendu pour sa place, et le son tourne avec sa tête.
 - **Conduite de l'essai.** Le PC de régie fige la scène, place caméra, instrument et portail, active ou coupe visage et corps, et note les prises, la latence et les images par seconde.
 
@@ -22,7 +22,7 @@
 
 ## État
 
-- **Recherche.** Utilisé pour une session d'enregistrement d'un groupe en direct ([JAES, 2023](https://eprints.whiterose.ac.uk/206403/)) et une étude sur les avatars avec un groupe de rock de quatre musiciens (AES, 2023).
+- **Recherche.** Utilisé pour une session d'enregistrement d'un groupe en direct ([JAES, 2023](https://eprints.whiterose.ac.uk/206403/)) et une étude de quatre styles d'avatar avec un groupe de rock de quatre musiciens ([AES, 2023](https://www.aes.org/e-lib/browse.cfm?elib=22183)).
 - **Réseau.** Données d'avatar en OSC sur un réseau local ; audio entre les pièces par JackTrip.
 - **Son.** Reaper avec encodage ambiX, convolution X-MCFX par des réponses impulsionnelles ambisoniques d'ordre 3 mesurées dans le Studio 4, IEM SceneRotator et décodage binaural.
 - **Technos.** Unity, Meta XR SDK, Meta Avatars SDK, Interaction SDK, extOSC ; Meta Quest 2, puis Quest Pro.

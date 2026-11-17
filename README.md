@@ -12,7 +12,7 @@
 
 - **Avatars.** Each musician appears as a Meta avatar driven by head, hands and body. On Quest Pro, brows, lip corners and gaze follow the player's face.
 - **Passthrough portal.** A window onto the real room, to see one's own instrument. Pinch with one hand to move it, with two hands to stretch it.
-- **Instruments.** Piano, guitar or voice; the guitar hangs on the remote musician's avatar.
+- **Instruments.** Each musician picks piano, guitar or voice; the matching instrument appears in the shared studio.
 - **Studio sound.** Every musician hears the band in Studio 4, rendered for their seat, and the sound turns with their head.
 - **Experiment control.** The control PC freezes the scene, places camera, instrument and portal, switches face or body on and off, and logs takes, latency and frame rate.
 
@@ -24,7 +24,7 @@
 
 ## Status
 
-- **Research.** Used for a live band recording session ([JAES, 2023](https://eprints.whiterose.ac.uk/206403/)) and an avatar study with a four-piece rock band (AES, 2023).
+- **Research.** Used for a live band recording session ([JAES, 2023](https://eprints.whiterose.ac.uk/206403/)) and a study of four avatar styles with a four-piece rock band ([AES, 2023](https://www.aes.org/e-lib/browse.cfm?elib=22183)).
 - **Network.** Avatar data over OSC on a local network; audio between rooms over JackTrip.
 - **Sound.** Reaper with ambiX encoding, X-MCFX convolution of third-order Ambisonic impulse responses measured in Studio 4, IEM SceneRotator and binaural decoding.
 - **Stack.** Unity, Meta XR SDK, Meta Avatars SDK, Interaction SDK, extOSC; Meta Quest 2, then Quest Pro.
