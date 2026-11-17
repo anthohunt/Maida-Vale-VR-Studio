@@ -6,15 +6,15 @@
 
 [![Dans le casque : le Studio 4 virtuel, les avatars de deux membres du groupe, un portail passthrough ouvert, déplacé et agrandi (cliquer pour la vidéo complète)](docs/demo.gif)](https://drive.google.com/file/d/1bTghQBJOkCSHszd59ZwPXW41YPoqc6p8/view)
 
-*Dans le casque : le studio, les avatars des autres musiciens, un portail passthrough. Version antérieure sur Meta Quest 2, 2022. [Vidéo complète (1:08)](https://drive.google.com/file/d/1bTghQBJOkCSHszd59ZwPXW41YPoqc6p8/view)*
+*Dans le casque : le studio, les avatars des autres musiciens, un portail passthrough (vert : déplacé d'une main, rouge : agrandi des deux). Version antérieure sur Meta Quest 2, 2022. [Vidéo complète (1:08)](https://drive.google.com/file/d/1bTghQBJOkCSHszd59ZwPXW41YPoqc6p8/view)*
 
-## Ce qu'on fait avec
+## Utilisation
 
-- **Avatars.** Chaque musicien apparaît en avatar Meta, animé par la tête, les mains et le corps. Sur Quest Pro, sourcils, coins des lèvres et regard suivent le visage du joueur.
+- **Avatars.** Chaque musicien apparaît en avatar Meta, animé par la tête, les mains et le corps. Sur Quest Pro, le suivi du visage et des yeux anime son expression et son regard.
 - **Portail passthrough.** Une fenêtre sur la pièce réelle, pour voir son propre instrument. Pincer d'une main pour la déplacer, des deux mains pour l'agrandir.
-- **Instruments.** Chaque musicien choisit piano, guitare ou voix ; l'instrument correspondant apparaît dans le studio partagé.
+- **Instruments.** Chaque musicien choisit piano, guitare ou voix ; un piano ou une guitare apparaît dans le studio.
 - **Son du studio.** Chaque musicien entend le groupe dans le Studio 4, rendu pour sa place, et le son tourne avec sa tête.
-- **Conduite de l'essai.** Le PC de régie fige la scène, place caméra, instrument et portail, active ou coupe visage et corps, et note les prises, la latence et les images par seconde.
+- **Conduite de l'essai.** Le PC de régie fige la scène, place caméra, instrument et portail, active ou coupe visage et corps, et note chaque prise. Chaque casque enregistre sa latence et ses images par seconde.
 
 ## Architecture
 
@@ -26,7 +26,7 @@
 - **Réseau.** Données d'avatar en OSC sur un réseau local ; audio entre les pièces par JackTrip.
 - **Son.** Reaper avec encodage ambiX, convolution X-MCFX par des réponses impulsionnelles ambisoniques d'ordre 3 mesurées dans le Studio 4, IEM SceneRotator et décodage binaural.
 - **Technos.** Unity, Meta XR SDK, Meta Avatars SDK, Interaction SDK, extOSC ; Meta Quest 2, puis Quest Pro.
-- **Statut.** Prototype de 2021–2023, plus développé.
+- **Aujourd'hui.** Prototype du doctorat, qui n'est plus développé.
 
 ---
 
