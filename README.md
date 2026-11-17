@@ -1,49 +1,37 @@
+**English** · [Français](README.fr.md)
+
 # Maida Vale VR Studio
 
-> Showcase repository: the code of this project is kept private; this README describes it. Part of doctoral research at the University of York (AudioLab × BBC R&D).
+**Musicians in separate rooms play together in VR, as avatars inside a virtual copy of Studio 4 at BBC Maida Vale, and hear its measured acoustics.** PhD research at the University of York AudioLab with BBC R&D.
 
-**Anthony Hunt** · [Project page on ingevision.cloud](https://ingevision.cloud/?lang=en&p=maida-vale) · [LinkedIn](https://www.linkedin.com/in/anthony-hunt-3948a9196) · [GitHub profile](https://github.com/anthohunt)
+[![Inside the headset: the virtual Studio 4, two band members' avatars, a passthrough portal opened, moved and stretched (click for the full video)](docs/demo.gif)](https://drive.google.com/file/d/1bTghQBJOkCSHszd59ZwPXW41YPoqc6p8/view)
 
-# Introduction
-This project represents the client-side of the VR music application. It focuses on user interaction, network communication, and the personal aspects of the music experience in VR. The client component connects to the server (Maida-Vale VR Studio project) and handles functionalities like real-time audio recording, performance playback, and OSC communication for immersive musical interaction. Below is an overview of the key script components and their roles in the client-side VR application.
+*Inside the headset: the studio, the other musicians' avatars, a passthrough portal. Earlier version on Meta Quest 2, 2022. [Full video (1:08)](https://drive.google.com/file/d/1bTghQBJOkCSHszd59ZwPXW41YPoqc6p8/view)*
 
-# Script Summaries
+## Using it
 
-## AvatarManager.cs
-**Manages avatar representations in the VR environment.** This script handles avatar creation, customization, and control within the virtual space.
+- **Avatars.** Each musician appears as a Meta avatar driven by head, hands and body. On Quest Pro, brows, lip corners and gaze follow the player's face.
+- **Passthrough portal.** A window onto the real room, to see one's own instrument. Pinch with one hand to move it, with two hands to stretch it.
+- **Instruments.** Piano, guitar or voice; the guitar hangs on the remote musician's avatar.
+- **Studio sound.** Every musician hears the band in Studio 4, rendered for their seat, and the sound turns with their head.
+- **Experiment control.** The control PC freezes the scene, places camera, instrument and portal, switches face or body on and off, and logs takes, latency and frame rate.
 
-## CustomTwoGrabFreeTransformer.cs
-**Implements a custom transformation mechanic,** for objects or entities within the VR space. This script allows for advanced interaction techniques such as scaling, rotating, or moving objects with two-hand controls.
+## Architecture
 
-## FPSLatencyMeasurement.cs
-**Monitors and records the frames per second (FPS) and latency** in the VR environment.
+![Maida Vale VR Studio architecture: each Quest Pro streams body, face and gaze over OSC to a Unity server on the control PC, which forwards the other musician's avatar; Reaper renders Studio 4's acoustics, rotated with the head, binaurally to each musician's headphones](docs/architecture.svg)
 
-## FaceAnalyser.cs
-**Analyzes facial expressions and features.** This script is used for avatar facial expression synchronization and emotion detection within VR.
+*Diagram labels are in French.*
 
-## InstrumentManager.cs
-**Manages musical instruments objects** in the VR setting. It handles the logic for playing, controlling, and interacting with virtual instruments.
+## Status
 
-## LocalDataBuffer.cs
-**Handles data buffering,** for network operations or data streaming in VR. This script ensures efficient data handling and transfer within the application.
+- **Research.** Used for a live band recording session ([JAES, 2023](https://eprints.whiterose.ac.uk/206403/)) and an avatar study with a four-piece rock band (AES, 2023).
+- **Network.** Avatar data over OSC on a local network; audio between rooms over JackTrip.
+- **Sound.** Reaper with ambiX encoding, X-MCFX convolution of third-order Ambisonic impulse responses measured in Studio 4, IEM SceneRotator and binaural decoding.
+- **Stack.** Unity, Meta XR SDK, Meta Avatars SDK, Interaction SDK, extOSC; Meta Quest 2, then Quest Pro.
+- **State.** Prototype from 2021–2023, no longer developed.
 
-## MasterControl.cs
-**Acts as the central control script for the VR application,** coordinating various aspects of the VR experience, such as scene management, user interactions, and system settings.
+---
 
-## MenuManager.cs
-**Manages in-app menus and user interfaces.** This script is key for navigation, settings adjustments, and user interaction within the VR environment.
+**Anthony Hunt** · [ingevision.cloud](https://ingevision.cloud/?lang=en&p=maida-vale) · [LinkedIn](https://www.linkedin.com/in/anthony-hunt-3948a9196) · [GitHub](https://github.com/anthohunt)
 
-## NetworkManager.cs
-**Handles network connectivity and communication.** It is vital for multiplayer or online aspects of the VR experience, ensuring smooth data exchange and interaction between different users.
-
-## PassthroughManager.cs
-**Manages the integration of real-world visuals into the VR space,** a feature known as 'passthrough' in VR systems. This enhances user orientation and safety.
-
-## ResearchConditionsManager.cs
-**Manages experimental and research conditions** within the VR application. This script is used for studies, user testing, and controlled environment settings.
-
-## TestDummyData.cs
-**Provides dummy data for testing purposes.** It is essential for the development phase, allowing developers to test functionalities without the need for live data.
-
-## TimeStamp.cs
-**Handles time-stamping functionalities,** which are used for event logging, performance measurement, or time-based actions within the VR application.
+The code is private; this repository presents it.
