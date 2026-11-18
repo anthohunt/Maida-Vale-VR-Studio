@@ -4,15 +4,15 @@
 
 **Musicians in separate rooms play together in VR, as avatars inside a virtual copy of Studio 4 at BBC Maida Vale, and hear its measured acoustics.** PhD research at the University of York AudioLab with BBC R&D.
 
-[![Inside the headset: the virtual Studio 4, two band members' avatars, a passthrough portal opened, moved and stretched (click for the full video)](docs/demo.webp)](https://drive.google.com/file/d/1bTghQBJOkCSHszd59ZwPXW41YPoqc6p8/view)
+![Inside the headset: the virtual Studio 4, two band members' avatars, a passthrough portal opened, moved and stretched](docs/demo.webp)
 
 <details><summary>French version</summary>
 
-[![Dans le casque : le Studio 4 virtuel, les avatars de deux membres du groupe, un portail passthrough ouvert, déplacé et agrandi (cliquer pour la vidéo complète)](docs/demo.fr.webp)](https://drive.google.com/file/d/17qD7Cbb3JYHgeXDKLVPRaCosyk6iljlL/view)
+![Dans le casque : le Studio 4 virtuel, les avatars de deux membres du groupe, un portail passthrough ouvert, déplacé et agrandi](docs/demo.fr.webp)
 
 </details>
 
-*Inside the headset: the studio, the other musicians' avatars, a passthrough portal (green: moved with one hand, red: stretched with two). Earlier version on Meta Quest 2, 2022. [Full video (1:08)](https://drive.google.com/file/d/1bTghQBJOkCSHszd59ZwPXW41YPoqc6p8/view)*
+*Inside the headset: the studio, the other musicians' avatars, a passthrough portal (green: moved with one hand, red: stretched with two). Earlier version on Meta Quest 2, 2022.*
 
 ## Using it
 

@@ -4,15 +4,15 @@
 
 **Des musiciens dans des pièces séparées jouent ensemble en réalité virtuelle, en avatars, dans une copie du Studio 4 de la BBC à Maida Vale, et entendent son acoustique mesurée.** Recherche doctorale à l'AudioLab de l'université d'York, avec BBC R&D.
 
-[![Dans le casque : le Studio 4 virtuel, les avatars de deux membres du groupe, un portail passthrough ouvert, déplacé et agrandi (version anglaise, cliquer pour la vidéo complète)](docs/demo.webp)](https://drive.google.com/file/d/1bTghQBJOkCSHszd59ZwPXW41YPoqc6p8/view)
+![Dans le casque : le Studio 4 virtuel, les avatars de deux membres du groupe, un portail passthrough ouvert, déplacé et agrandi (version anglaise)](docs/demo.webp)
 
 <details><summary>Version française</summary>
 
-[![Dans le casque : le Studio 4 virtuel, les avatars de deux membres du groupe, un portail passthrough ouvert, déplacé et agrandi (cliquer pour la vidéo complète)](docs/demo.fr.webp)](https://drive.google.com/file/d/17qD7Cbb3JYHgeXDKLVPRaCosyk6iljlL/view)
+![Dans le casque : le Studio 4 virtuel, les avatars de deux membres du groupe, un portail passthrough ouvert, déplacé et agrandi](docs/demo.fr.webp)
 
 </details>
 
-*Dans le casque : le studio, les avatars des autres musiciens, un portail passthrough (vert : déplacé d'une main, rouge : agrandi des deux). Version antérieure sur Meta Quest 2, 2022. [Vidéo complète (1:08)](https://drive.google.com/file/d/17qD7Cbb3JYHgeXDKLVPRaCosyk6iljlL/view)*
+*Dans le casque : le studio, les avatars des autres musiciens, un portail passthrough (vert : déplacé d'une main, rouge : agrandi des deux). Version antérieure sur Meta Quest 2, 2022.*
 
 ## Utilisation
 
